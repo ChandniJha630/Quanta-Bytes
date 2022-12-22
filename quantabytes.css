@@ -1,0 +1,169 @@
+
+h1{
+  text-align:center;
+  color: #EEEEEE;
+  padding-top:20px;
+  font-size: 72;
+  font-weight: medium;
+  font-family: sans-serif;
+  margin-bottom: 10px;
+}
+.abouthost{
+  text-align:center;
+  color: #B784A7;
+  padding-top:20px;
+  font-size: 72;
+  font-weight: medium;
+  font-family: sans-serif;
+  margin-bottom: 10px;
+}
+#abouttheChannel h1{
+  color: #451850;
+}
+h2{
+  text-align: center;
+  font-family: serif;
+}
+h4{
+  text-align:center;
+  color: #EEEEEE;
+  padding-top:10px;
+  font-size: 54;
+  font-weight: medium;
+  font-family: sans-serif;
+}
+p{
+  text-align: left;
+}
+.aboutme{
+  text-align: center;
+}
+.footer{
+  color:#B784A7;
+  text-align: center;
+  height: 80px;
+}
+
+.a{
+  margin: 10px;
+  height: 350px;
+  background-color: #451850;
+
+}
+.aimage {
+  margin-left: auto;
+margin-right: auto;
+
+  transform: rotate(0deg);
+  display: block;
+  height: 250px;
+  width:auto;
+  border-radius: 100%;
+  border-width: thick;
+  border-style:inset;
+  border-color: white;
+  z-index: 1;
+}
+
+#abouttheChannel{
+  margin-top: 40px;
+  width:50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.content{
+ width:70%;
+ margin-left: auto;
+ margin-right: auto;
+  margin-top: 20px;
+  text-align: center;
+  line-height: 2;
+}
+.imgb{
+  width: 20%;
+float: right;
+}
+.imga{
+  width:25%;
+  float: left;
+}
+.profile{
+margin: 20px;
+  height: 200px;
+  width: auto;
+  float:left;
+  border-radius: 100%
+}
+
+#features{
+  padding: 10% 15%;
+  background-color: #451850;
+}
+.featureclass{
+  padding-left: auto;
+  padding-right: auto;
+}
+.likecomshare{
+  text-align: center;
+}
+
+.icon{
+  color:#B784A7;
+  margin-bottom: 2rem;
+}
+
+.icon:hover{
+  color:#FFFEDD;
+}
+#host{
+  line-height: 2;
+}
+#next-button{
+padding-left: 80%;
+}
+#foot{
+  background-color: #451850;
+}
+@media (max-width:1028px){
+  h2{
+    text-align: center;
+  }
+    p{
+      text-align: center;
+    }
+    .aboutme{
+      text-align: left;
+    }
+    .a{
+      margin: 10px;
+      height: 200px;
+      background-color: #451850;
+    }
+    .aimage {
+      margin-left: auto;
+    margin-right: auto;
+
+      transform: rotate(0deg);
+      display: block;
+      height: 150px;
+      width:auto;
+      border-radius: 100%;
+      border-width: thick;
+      border-style:inset;
+      border-color: white;
+      z-index: 1;
+    }
+  .imgb{
+    height: 220px;
+    width:auto;
+  float: center;
+  }
+  .imga{
+    height:220px;
+    width:auto;
+    float: center;
+  }
+  #abouttheChannel{
+    margin-top: 40px;
+  }
+}
